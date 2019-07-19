@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ace3f5c6-7d29-4b32-9afa-0c76e33894f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/eslintPlugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/react-code-spliting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loadable-sample/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loadable-sample/src/SplitMe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loadable-sample/src/notify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loadable-sample/src/pages/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loadable-sample/src/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loadable-sample/src/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loadable-sample/src/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loadable-sample/src/withSplitting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loadable-sample/src/hocs/withRunFunction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loadable-sample/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/loadable-sample/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loadable-sample/src/SplitMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/loadable-sample/src/pages/SplitMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loadable-sample/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/loadable-sample/src/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loadable-sample/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/loadable-sample/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loadable-sample/src/withSplitting.js" beforeDir="false" afterPath="$PROJECT_DIR$/loadable-sample/src/hocs/withSplitting.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loadable-sample/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="585">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -41,44 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loadable-sample/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loadable-sample/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loadable-sample/src/serviceWorker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="128" column="26" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="26" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loadable-sample/src/pages/About.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="490">
+              <caret line="392" column="103" selection-start-line="392" selection-start-column="103" selection-end-line="392" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -95,23 +54,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loadable-sample/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loadable-sample/src/withSplitting.js">
+        <entry file="file://$PROJECT_DIR$/loadable-sample/src/hocs/withSplitting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="330">
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loadable-sample/src/SplitMe.js">
+        <entry file="file://$PROJECT_DIR$/loadable-sample/src/hocs/withRunFunction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="42" selection-start-column="42" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loadable-sample/src/pages/SplitMe.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -130,6 +98,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>React</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -141,13 +114,17 @@
         <option value="$PROJECT_DIR$/loadable-sample/src/notify.js" />
         <option value="$PROJECT_DIR$/loadable-sample/src/SplitMe.js" />
         <option value="$PROJECT_DIR$/loadable-sample/.eslintrc" />
-        <option value="$PROJECT_DIR$/loadable-sample/src/withSplitting.js" />
-        <option value="$PROJECT_DIR$/loadable-sample/src/pages/About.js" />
         <option value="$PROJECT_DIR$/loadable-sample/src/pages/Home.js" />
-        <option value="$PROJECT_DIR$/loadable-sample/src/pages/index.js" />
-        <option value="$PROJECT_DIR$/loadable-sample/src/App.js" />
         <option value="$PROJECT_DIR$/loadable-sample/package.json" />
         <option value="$PROJECT_DIR$/loadable-sample/src/index.js" />
+        <option value="$PROJECT_DIR$/loadable-sample/src/withSplitting.js" />
+        <option value="$PROJECT_DIR$/loadable-sample/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/loadable-sample/src/hocs/withDo.js" />
+        <option value="$PROJECT_DIR$/loadable-sample/src/hocs/withSplitting.js" />
+        <option value="$PROJECT_DIR$/loadable-sample/src/hocs/withRunFunction.js" />
+        <option value="$PROJECT_DIR$/loadable-sample/src/handles/click/index.js" />
+        <option value="$PROJECT_DIR$/loadable-sample/src/App.js" />
+        <option value="$PROJECT_DIR$/loadable-sample/src/pages/About.js" />
       </list>
     </option>
   </component>
@@ -189,6 +166,20 @@
               <item name="loadable-sample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-code-spliting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-code-spliting" type="462c0819:PsiDirectoryNode" />
+              <item name="loadable-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-code-spliting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-code-spliting" type="462c0819:PsiDirectoryNode" />
+              <item name="loadable-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,6 +204,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loadable-sample/src" />
+      <recent name="$PROJECT_DIR$/loadable-sample/src/hocs" />
+      <recent name="$PROJECT_DIR$/loadable-sample/src/pages" />
+      <recent name="$PROJECT_DIR$/loadable-sample/src/handles/click" />
+      <recent name="$PROJECT_DIR$/loadable-sample/src/handles" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -236,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563499623547</updated>
       <workItem from="1563499624758" duration="2198000" />
-      <workItem from="1563503536612" duration="5293000" />
+      <workItem from="1563503536612" duration="8102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7491000" />
+    <option name="totallyTimeSpent" value="10300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="218" y="65" width="1400" height="937" extended-state="0" />
@@ -308,13 +308,6 @@
     <entry file="file://$PROJECT_DIR$/loadable-sample/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/loadable-sample/src/notify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loadable-sample/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13094" />
@@ -324,51 +317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadable-sample/src/SplitMe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadable-sample/src/withSplitting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadable-sample/src/pages/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadable-sample/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadable-sample/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="128" column="26" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadable-sample/src/pages/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -389,13 +337,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loadable-sample/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="128" column="26" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadable-sample/src/pages/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadable-sample/src/pages/SplitMe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadable-sample/src/notify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadable-sample/src/hocs/withRunFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadable-sample/src/hocs/withSplitting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadable-sample/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadable-sample/src/handles/click/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/loadable-sample/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadable-sample/src/pages/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="392" column="103" selection-start-line="392" selection-start-column="103" selection-end-line="392" selection-end-column="103" />
         </state>
       </provider>
     </entry>
